@@ -1,0 +1,44 @@
+/* pages/posts/post-detail/post-detail.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-image {
+    width:100%;
+    height: 460rpx;
+}
+
+.author-data {
+    flex-direction: row;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+}
+
+.avatar {
+    width: 64rpx;
+    height: 64rpx;
+    vertical-align: middle;
+}
+
+.author {
+    font-size: 30rpx;
+    font-weight: 300;
+    margin-left: 20rpx;
+    vertical-align: middle;
+    color: #666;
+}
+
+const-text {
+    font-size:24rpx;
+    color: #999;
+    margin-left: 20rpx;
+}
+
+.date {
+    font-size:24rpx;
+    margin-left: 30rpx;
+    vertical-align: middle;
+    color: #999;
+}
+
