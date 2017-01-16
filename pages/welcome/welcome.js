@@ -4,7 +4,7 @@ Page({
         // wx.navigateTo({//父子级页面的跳转，跳转过去的页面作为当前页面的子页面，出现返回按钮。会触发onHide函数。父子级页面最多5级；
         //   url: '../posts/posts'
         // })
-        wx.redirectTo({
+        wx.switchTab({
           url: '../posts/posts' //作为平级页面的跳转。会触发onUnload函数。
         })
     },

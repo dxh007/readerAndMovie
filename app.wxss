@@ -1,3 +1,4 @@
 text {
     font-style: Microsoft-Yahei;
+    font-size: 24rpx;
 }
